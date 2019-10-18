@@ -19,8 +19,8 @@ ax.arrow(0, 0, arrow1[0], arrow1[1], color='g', length_includes_head=True, head_
 ax.arrow(arrow1[0], arrow1[1], arrow2[0], arrow2[1], color='g', length_includes_head=True, head_width=0.2, head_length=0.2)
 ax.arrow(0, 0, vectorsum[0], vectorsum[1], color='b', length_includes_head=True, head_width=0.2, head_length=0.2)
 
-#ax.set_yticks(yvalues)
-#ax.set_xticks(xvalues)
+ax.set_yticks(yvalues)
+ax.set_xticks(xvalues)
 
 #seta os valores do foco do plano
 ax.set(xlim=(min(xvalues), max(xvalues)), ylim=(min(yvalues), max(yvalues)))
